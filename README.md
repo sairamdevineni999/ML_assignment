@@ -30,6 +30,12 @@ ROI by subscription tier
  Visualization using graphs  
  Supervised learning models (Linear Regression, Decision Tree, Random Forest)  
  Model evaluation using MAE, RMSE, and R² Score  
+ 
+ ## How to Run
+1. Download the dataset from Kaggle  
+2. Place it in the project folder  
+3. Open the notebook  
+4. Run all cells
 
 ## Models Used
  Linear Regression  
