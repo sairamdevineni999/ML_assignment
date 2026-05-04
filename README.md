@@ -1,57 +1,44 @@
-Marketing Performance Analysis and Revenue Prediction
+## Marketing Performance Analysis and Revenue Prediction
 
-Project Overview
+# Project Overview
 This project analyzes marketing and product performance data to understand factors affecting revenue. It includes exploratory data analysis (EDA) and supervised learning models to predict revenue.
 
- Dataset
-- Source: Kaggle  
-- Link: https://www.kaggle.com/datasets/imranalishahh/marketing-and-product-performance-dataset  
-- Rows: ~10,000  
-- Columns: 17  
+## Dataset
+Source: Kaggle  
+Link: https://www.kaggle.com/datasets/imranalishahh/marketing-and-product-performance-dataset  
+Rows: ~10,000  
+Columns: 17  
 
----
+## Objective
+ Analyze relationships between marketing features and revenue  
+ Identify important factors affecting performance  
+ Build models to predict revenue  
+ 
+## Research Questions
+Revenue by subscription tier  
+Budget vs revenue  
+Discount vs units sold  
+Satisfaction vs revenue  
+Bundle price vs units sold  
+Conversion rate analysis  
+ROI by subscription tier  
 
-## 🎯 Objective
-- Analyze relationships between marketing features and revenue  
-- Identify important factors affecting performance  
-- Build models to predict revenue  
+## Methodology
+ Data cleaning (remove duplicates, handle missing values)  
+ Feature engineering (conversion rate)  
+ Exploratory Data Analysis (EDA)  
+ Visualization using graphs  
+ Supervised learning models (Linear Regression, Decision Tree, Random Forest)  
+ Model evaluation using MAE, RMSE, and R² Score  
 
----
+## Models Used
+ Linear Regression  
+ Decision Tree Regressor  
+ Random Forest Regressor  
 
-## 🔍 Research Questions
-1. Revenue by subscription tier  
-2. Budget vs revenue  
-3. Discount vs units sold  
-4. Satisfaction vs revenue  
-5. Bundle price vs units sold  
-6. Conversion rate analysis  
-7. ROI by subscription tier  
+## Results
+ Most features show weak relationships with revenue  
+ Conversion rates are generally low  
+ ROI is similar across subscription tiers  
+ ML models show low prediction accuracy due to weak feature relationships  
 
----
-
-## ⚙️ Methodology
-- Data cleaning (remove duplicates, handle missing values)  
-- Feature engineering (conversion rate)  
-- Exploratory Data Analysis (EDA)  
-- Visualization using graphs  
-- Supervised learning models (Linear Regression, Decision Tree, Random Forest)  
-- Model evaluation using MAE, RMSE, and R² Score  
-
----
-
-## 🤖 Models Used
-- Linear Regression  
-- Decision Tree Regressor  
-- Random Forest Regressor  
-
----
-
-## 📊 Results
-- Most features show weak relationships with revenue  
-- Conversion rates are generally low  
-- ROI is similar across subscription tiers  
-- ML models show low prediction accuracy due to weak feature relationships  
-
----
-
-## 📁 Project Structure
